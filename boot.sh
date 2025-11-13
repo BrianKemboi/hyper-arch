@@ -7,7 +7,7 @@ REPO_URL="https://github.com/${REPO}.git"
 INSTALL_DIR="${HOME}/.local/share/${NAME}"
 REPO_REF="${REPO_REF:-main}"
 
-source $INSTALL_DIR/functions.sh
+
 
 if ! command -v git &>/dev/null; then
   log "Git not found. Installing..."
@@ -31,6 +31,7 @@ if [[ "${REPO_REF}" != "main" ]]; then
     error_exit "Branch ${REPO_REF} not found."
 fi
 
+source $INSTALL_DIR/functions.sh
 INSTALL_SCRIPT="${INSTALL_DIR}/setup/all.sh"
 
 if [[ -x "${INSTALL_SCRIPT}" ]]; then
