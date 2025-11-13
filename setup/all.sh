@@ -12,3 +12,6 @@ source $SETUP_DIR/desktop.sh
 source $SETUP_DIR/development.sh
 source $SETUP_DIR/docker.sh
 source $SETUP_DIR/fonts.sh
+source $SETUP_DIR/hyperland.sh
+source $SETUP_DIR/mimetypes.sh
+source $SETUP_DIR/nvim.sh
