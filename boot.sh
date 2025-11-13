@@ -7,6 +7,12 @@ REPO_URL="https://github.com/${REPO}.git"
 INSTALL_DIR="${HOME}/.local/share/${NAME}"
 REPO_REF="${REPO_REF:-main}"
 
+# ===============================
+# Logging functions
+# ===============================
+log() { echo -e "\e[36m[INFO]\e[0m $*"; }
+warn() { echo -e "\e[33m[WARN]\e[0m $*" >&2; }
+error_exit() { echo -e "\e[31m[ERROR]\e[0m $*" >&2; exit 1; }
 
 
 if ! command -v git &>/dev/null; then

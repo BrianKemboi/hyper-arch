@@ -2,13 +2,6 @@
 set -euo pipefail
 
 # ===============================
-# Logging functions
-# ===============================
-log() { echo -e "\e[36m[INFO]\e[0m $*"; }
-warn() { echo -e "\e[33m[WARN]\e[0m $*" >&2; }
-error_exit() { echo -e "\e[31m[ERROR]\e[0m $*" >&2; exit 1; }
-
-# ===============================
 # Package installer
 # ===============================
 install_packages() {
