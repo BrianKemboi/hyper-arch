@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 if ! command -v gum &>/dev/null; then
   log "Installing gum..."
   yay -S --noconfirm --needed gum

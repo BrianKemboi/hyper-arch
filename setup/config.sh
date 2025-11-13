@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 cp -R ~/.local/share/${NAME}/config/* ~/.config/
 mkdir -p ~/.local/share/applications
 echo "source ~/.local/share/${NAME}/default/bash/rc" >~/.bashrc

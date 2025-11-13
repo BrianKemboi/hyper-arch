@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 packages=(
   ttf-font-awesome
   noto-fonts

@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 packages=(
   mariadb-libs
   postgresql-libs

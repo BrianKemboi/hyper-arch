@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 set -eEo pipefail
 
 SETUP_DIR=$INSTALL_DIR/setup

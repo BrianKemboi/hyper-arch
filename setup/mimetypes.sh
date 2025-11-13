@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Function to check if a desktop file exists
 desktop_exists() {
     local desktop="$1"

@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 sudo pacman -S --needed --noconfirm base-devel || error_exit "Failed to install base-devel."
 
 if ! command -v yay &>/dev/null; then

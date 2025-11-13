@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 install_packages blueberry
 
 # Turn on bluetooth by default

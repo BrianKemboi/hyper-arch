@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 packages=(
   brightnessctl
   playerctl
