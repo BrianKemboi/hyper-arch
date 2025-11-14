@@ -20,8 +20,8 @@ fi
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 # Copy custom config
-if [[ -d ~/.local/share/omarchy/config/nvim ]]; then
-  cp -R ~/.local/share/omarchy/config/nvim/* ~/.config/nvim/
+if [[ -d ~/.local/share/hyper-arch/config/nvim ]]; then
+  cp -R ~/.local/share/hyper-arch/config/nvim/* ~/.config/nvim/
 fi
 
 # Remove git folder from starter
