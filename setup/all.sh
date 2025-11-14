@@ -15,3 +15,5 @@ source $SETUP_DIR/fonts.sh
 source $SETUP_DIR/hyperland.sh
 source $SETUP_DIR/mimetypes.sh
 source $SETUP_DIR/nvim.sh
+source $SETUP_DIR/theme.sh
+source $SETUP_DIR/webapps.sh
